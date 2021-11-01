@@ -1,0 +1,37 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 90%;
+  color: #fff;
+  border-radius: 200px;
+  margin: 2%;
+  padding: 1%;
+  font-weight: bold;
+  background-color: rgb(250, 188, 31);
+  transition: all 0.5s ease-in-out;
+}
+.links:hover {
+  background-color: rgb(30, 77, 233);
+  color: #aaa;
+}
+
+@media (max-width: 983px) {
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+}
+@media (max-width: 320px) {
+  .contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+  }
+}
